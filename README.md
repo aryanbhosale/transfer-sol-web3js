@@ -4,8 +4,6 @@ To make this possible, I am using the [Web3.JS](https://docs.solana.com/developi
 
 The entire source code, `index.ts` is well documented within the file to guide the reader at every step
 
-This is the [buildspace](https://buildspace.so/) Solana Core-1 final shipping task
-
 Keeping in mind the following points, anyone can make a simple transaction program using Solana :
 
 1. keypair
@@ -75,3 +73,5 @@ async function callProgram(
     )
 }
 ```
+
+## This is the [buildspace](https://buildspace.so/) Solana Core-1 final shipping task
