@@ -12,7 +12,7 @@ Keeping in mind the following points, anyone can make a simple transaction progr
 
 ```
 const keypair = Keypair.fromSecretKey(
-  Uint8Array.from([32 byte Array])
+  Uint8Array.from([n byte Array])
 ); //assuming that the array exists, if not, do the following
 const secret = JSON.parse(process.env.PRIVATE_KEY ?? "") as number[] //loads the value to the constant secret only if it exists else empty
 const keypairFromSecretKey = Keypair.fromSecretKey(Uint8Array.from(secret))
